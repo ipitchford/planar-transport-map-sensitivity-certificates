@@ -1,0 +1,300 @@
+{
+  "schemaVersion": "1.0",
+  "contributionMap": [
+    {
+      "claim": "P1 affine-max optimality and P2 overlay coupling",
+      "unit": "statement",
+      "paperLocation": "Sections 1–2",
+      "searches": [
+        {
+          "date": "2026-10-07",
+          "query": "Approximate Discrete Optimal Transport Plan power diagrams overlap"
+        }
+      ],
+      "closestPriorWork": "OpenAI family 374 sharpness section; An, Lei and Gu ECCV 2022, method pages 2–3",
+      "verdict": "known-cited"
+    },
+    {
+      "claim": "P2 exact rational geometry and primal-dual checking",
+      "unit": "method",
+      "paperLocation": "Sections 2 and 5",
+      "searches": [
+        {
+          "date": "2026-10-07",
+          "query": "optimal transport power diagram exact arithmetic overlap cells map distance certification"
+        }
+      ],
+      "closestPriorWork": "Power diagrams and finite Kantorovich weak duality; An–Lei–Gu common-source coupling",
+      "verdict": "known-cited"
+    },
+    {
+      "claim": "P3 computable coefficient-box possible-winner envelope",
+      "unit": "method",
+      "paperLocation": "Section 3, Theorem 2",
+      "searches": [
+        {
+          "date": "2026-10-07",
+          "query": "\"optimal transport\" \"coefficient uncertainty\" \"map\""
+        },
+        {
+          "date": "2026-10-07",
+          "query": "\"optimal transport\" \"robust\" \"Laguerre cells\" certificate"
+        },
+        {
+          "date": "2026-10-07",
+          "query": "\"uncertain Voronoi\" \"possible\" diagram; \"max-affine\" \"interval\" \"robust\" (external review query families, rerun on the located sources)"
+        }
+      ],
+      "closestPriorWork": "Xie et al. 2013 (UV-diagram possible-nearest-neighbour regions from distance envelopes: same screening principle, different objects, no transport integral); Bansil-Kitagawa fixed-site cell stability; Divol-Niles-Weed-Pooladian semi-discrete stability with varying supports; Bonnet-Weill-Nenna optimal-value estimators",
+      "verdict": "new-in-bounded-search",
+      "qualification": "A transport-specific integration of established envelope reasoning; no exact match to the coefficient-box map-error integral located; historical priority not established."
+    },
+    {
+      "claim": "P4 two-parameter map error, target cost, and excess identities",
+      "unit": "statement",
+      "paperLocation": "Section 4, Theorem 3",
+      "searches": [
+        {
+          "date": "2026-10-07",
+          "query": "\"Brenier\" \"mass\" \"tilt\" stability"
+        },
+        {
+          "date": "2026-10-07",
+          "query": "\"optimal transport\" \"s^2+b^2\" tilt"
+        }
+      ],
+      "closestPriorWork": "OpenAI family 374 three-atom tilt (s=0 identities); Merigot-Delalande-Chazal 2020 supplementary Lemma 5.1 (fixed-positive-mass square-root phenomenon with two rotating atoms); Rux-Quellmalz-Steidl 2026 (H is a shifted Huber penalty)",
+      "verdict": "partially-known-cited",
+      "qualification": "The s != 0 excess identity and the coupling-optimality threshold |s| >= |b| are the additions; the scalar function H is classical."
+    },
+    {
+      "claim": "P5 corner maximum and exact conservatism gap",
+      "unit": "statement",
+      "paperLocation": "Section 4, Corollary 4 and following paragraph",
+      "searches": [
+        {
+          "date": "2026-10-07",
+          "query": "\"Brenier\" \"three-atom\" \"uncertainty\""
+        }
+      ],
+      "closestPriorWork": "Standard separate-convexity endpoint argument applied to P4; original one-parameter source construction",
+      "verdict": "new-in-bounded-search",
+      "qualification": "Elementary scoped consequence; no priority claim."
+    },
+    {
+      "claim": "P6 adverse family separating the two relaxations",
+      "unit": "statement",
+      "paperLocation": "Section 3.1, Proposition 3",
+      "searches": [
+        {
+          "date": "2026-10-07",
+          "query": "\"possible winner\" envelope \"optimal transport\" conservatism counterexample"
+        }
+      ],
+      "closestPriorWork": "Supplied by the external review of version 0.1.0; rederived here",
+      "verdict": "attributed-to-review",
+      "qualification": "A diagnostic example, not a priority claim."
+    },
+    {
+      "claim": "P7 tightness constant and convergent box subdivision",
+      "unit": "method",
+      "paperLocation": "Sections 3.2-3.3, Theorems 4 and 6",
+      "searches": [
+        {
+          "date": "2026-10-07",
+          "query": "\"optimal transport\" \"branch and bound\" \"Laguerre\" robust map error"
+        },
+        {
+          "date": "2026-10-07",
+          "query": "\"semi-discrete\" \"optimal transport\" \"interval\" \"subdivision\" certified maximum"
+        }
+      ],
+      "closestPriorWork": "Generic branch-and-bound over interval boxes (standard global optimisation); the transport-specific ingredient is the linear-in-radius tightness bound for the possible-winner envelope",
+      "verdict": "new-in-bounded-search",
+      "qualification": "Standard subdivision scheme; the proved rate for this envelope was not located; historical priority not established."
+    }
+  ],
+  "sourcesReadInFull": [
+    {
+      "citation": "OpenAI, Sharp One-Third Stability of Brenier Maps, 2026-09-25",
+      "date": "2026-10-07",
+      "readWhat": "Complete introduction.tex and sharpness.tex sections, not the entire paper",
+      "usedFor": "Credited construction and boundary against claiming its general theorem",
+      "evidenceLocator": "https://github.com/openai/math/tree/adc7f1241b42e322a6451854ab7e4b4c146bf78a/preprints/Sharp-One-Third-Stability-of-Brenier-Maps-September-25-2026/build/source/sections"
+    },
+    {
+      "citation": "Bansil and Kitagawa, IMRN 2022, doi:10.1093/imrn/rnaa355",
+      "date": "2026-10-07",
+      "readWhat": "Definitions, Theorem 1.3 on PDF page 3 and surrounding fixed-site/inverse-map scope",
+      "usedFor": "Fixed-site cell stability is already known",
+      "evidenceLocator": "https://arxiv.org/pdf/2002.02022"
+    },
+    {
+      "citation": "An, Lei and Gu, ECCV 2022",
+      "date": "2026-10-07",
+      "readWhat": "Full-text method on pages 2–3 and discussion following the overlap definition",
+      "usedFor": "Overlap couplings and their possible nonoptimality are existing work",
+      "evidenceLocator": "https://www.ecva.net/papers/eccv_2022/papers_ECCV/papers/136830602.pdf"
+    },
+    {
+      "citation": "Carlier, Delalande and Mérigot, arXiv:2401.01088v2",
+      "date": "2026-10-07",
+      "readWhat": "Introduction, problem formulation and linearized-optimal-transport discussion",
+      "usedFor": "Known map-discrepancy representation and distinct fixed-potential/varying-source scope",
+      "evidenceLocator": "https://arxiv.org/html/2401.01088v2"
+    },
+    {
+      "citation": "Bonnet-Weill and Nenna, arXiv:2604.09325v1",
+      "date": "2026-10-07",
+      "readWhat": "Abstract, introduction and start of Section 4 on optimal-value estimation",
+      "usedFor": "Distinguish optimal-value certification from our coefficient-box map-error envelope",
+      "evidenceLocator": "https://arxiv.org/html/2604.09325v1"
+    },
+    {
+      "citation": "Merigot, Delalande and Chazal, PMLR 108 (2020) 3186-3196 and supplementary material",
+      "date": "2026-10-07",
+      "readWhat": "Main paper Definition 1.1 (Monge embedding), Proposition 2.1; supplementary Lemma 5.1 and its proof (two equal-mass rotating atoms on the unit circle, uniform disc source)",
+      "usedFor": "Attribution of the L2 map distance and of the fixed-positive-mass square-root phenomenon",
+      "evidenceLocator": "https://proceedings.mlr.press/v108/merigot20a.html"
+    },
+    {
+      "citation": "Delalande and Merigot, Duke Math. J. 172(17) (2023), doi:10.1215/00127094-2022-0106",
+      "date": "2026-10-07",
+      "readWhat": "Abstract and Theorem 4.2 (compact case) in arXiv:2103.05934v2",
+      "usedFor": "Closest fixed-source/varying-target stability context (exponent 1/6)",
+      "evidenceLocator": "https://arxiv.org/pdf/2103.05934"
+    },
+    {
+      "citation": "Divol, Niles-Weed and Pooladian, IMRN 2025(7) rnaf078",
+      "date": "2026-10-07",
+      "readWhat": "Abstract, introduction (semi-discrete W2^{1/3} application) and Section 4 opening in arXiv:2404.02855v1",
+      "usedFor": "Semi-discrete stability with possibly different supports is established territory",
+      "evidenceLocator": "https://arxiv.org/pdf/2404.02855"
+    },
+    {
+      "citation": "Letrouit, C. R. Math. 364 (2026) 333-344",
+      "date": "2026-10-07",
+      "readWhat": "Theorem 2, Conjecture 3, Section 1.3 and Section 3.1 of the publisher PDF",
+      "usedFor": "Instability context motivating the source's one-third construction; not a dependency",
+      "evidenceLocator": "https://doi.org/10.5802/crmath.834"
+    },
+    {
+      "citation": "Xie, Cheng, Yiu, Sun and Chen, VLDB J. 22 (2013) 319-344",
+      "date": "2026-10-07",
+      "readWhat": "Abstract (UV-partitions associated with the set of objects that can be nearest neighbours); the full text was not accessible to this revision, the Section 4.1 envelope construction is reported by the external review",
+      "usedFor": "Cross-domain antecedent of possible-winner regions",
+      "evidenceLocator": "https://doi.org/10.1007/s00778-012-0290-x"
+    },
+    {
+      "citation": "Rux, Quellmalz and Steidl, Adv. Comput. Math. 52 (2026) article 24",
+      "date": "2026-10-07",
+      "readWhat": "Crossref record; the Huber/uniform-smoothing identity for H was verified by direct calculation (H(s,b)=h_{|b|}(s)/|b|+|b|/2)",
+      "usedFor": "Identifying H as a classical scalar object",
+      "evidenceLocator": "https://doi.org/10.1007/s10444-026-10289-5"
+    },
+    {
+      "citation": "Carlier, Delalande and Merigot, Found. Comput. Math. 25 (2025) 1259-1286",
+      "date": "2026-10-07",
+      "readWhat": "Crossref record for the published version of the already-read arXiv v2",
+      "usedFor": "Bibliographic completion",
+      "evidenceLocator": "https://doi.org/10.1007/s10208-024-09669-4"
+    }
+  ],
+  "limitationTriage": [
+    {
+      "limitation": "General box envelope need not be sharp",
+      "closingQuestion": "Can the correlation loss be computed exactly in a tractable family?",
+      "triedOrSearched": "Derived P4-P5 and the B/2 gap (0.1.0); in 0.2.0 added the adverse family (P6), the linear-in-radius tightness theorem and the convergent subdivision with feasible lower bounds (P7).",
+      "estimatedCost": "Completed within this investigation",
+      "decision": "CLOSED",
+      "cheap": true,
+      "qualification": "Closed in the sense that a certified interval around the sharp maximum is now available for every box at every budget; a closed-form sharp maximum for arbitrary boxes remains unavailable and the refinement is exponential in the box dimension."
+    },
+    {
+      "limitation": "Arbitrary prescribed target masses are not solved for",
+      "closingQuestion": "Can the known fixed-site inverse problem be safely included at the same exactness level?",
+      "triedOrSearched": "Compared Bansil–Kitagawa; input potentials here already determine their target masses.",
+      "estimatedCost": "Separate inverse-solver implementation and proof effort; not calibrated",
+      "decision": "OPEN",
+      "cheap": false,
+      "reasonOpen": "Adding an inverse solver is a materially different mathematical and numerical specification, not needed for the direct certificate."
+    },
+    {
+      "limitation": "Generic implementation is planar and source density is uniform",
+      "closingQuestion": "Does the certificate proof require an unavailable theorem, or only a more general integration engine?",
+      "triedOrSearched": "Pointwise envelope reasoning is dimension-independent, but the implemented exact area engine is planar; cube calibration integrates out unused coordinates.",
+      "estimatedCost": "Uncalibrated extension with polytope/density integration and new adversarial tests",
+      "decision": "OPEN",
+      "cheap": false,
+      "reasonOpen": "The proofs of P3 and P7 are dimension-free, but no weighted or higher-dimensional integration backend was implemented: the external review asked for this only where a concrete application justifies it, and none was identified."
+    },
+    {
+      "limitation": "Line-arrangement scaling is not benchmarked",
+      "closingQuestion": "Can a region cap prevent resource exhaustion from producing a false certificate?",
+      "triedOrSearched": "benchmark.py: 65 cases across polygons, n in {2,3,4,6,8}, radii, dyadic denominators, inactive/near-coincident planes and a region-cap refusal; regions, wall time, peak RSS recorded.",
+      "estimatedCost": "Completed within this revision (about 50 s)",
+      "decision": "CLOSED",
+      "cheap": true,
+      "reasonOpen": "Safe refusal is implemented, but no scalability guarantee follows.",
+      "whyNotClosedNow": "The package makes no speed or production-scale claim. A tiny synthetic benchmark would not close worst-case scaling; retaining this explicit limit is more accurate.",
+      "qualification": "Single-machine observations up to 679 regions and 0.5 s per envelope; no asymptotic or worst-case guarantee follows."
+    },
+    {
+      "limitation": "No formal proof-assistant or external independent verification",
+      "closingQuestion": "Can cheap adversarial review and independent arithmetic paths improve internal assurance now?",
+      "triedOrSearched": "Fresh-context internal review, separate exact geometry algorithm, normal and optimized tests, explicit review fixes.",
+      "estimatedCost": "Internal checks completed; full formalization/external review not calibrated",
+      "decision": "OPEN",
+      "cheap": false,
+      "reasonOpen": "These are distinct assurance classes and cannot be manufactured by relabeling internal tests."
+    },
+    {
+      "limitation": "Historical novelty remains bounded",
+      "closingQuestion": "Do exact formula and method fingerprints find a collision?",
+      "triedOrSearched": "Initial and post-derivation searches in PRIOR_ART.md; known overlay collision explicitly credited.",
+      "estimatedCost": "Bounded search completed; exhaustive history has no reliable finite estimate",
+      "decision": "OPEN",
+      "cheap": false,
+      "reasonOpen": "No exact match for P3/P5 was found, but English web searches and selected full-text comparisons do not prove priority."
+    },
+    {
+      "limitation": "No empirical downstream validation",
+      "closingQuestion": "Is a claim about an applied dataset needed to support the certificate?",
+      "triedOrSearched": "Used exact analytic calibration and rational arbitrary-polygon tests; no external dataset was used.",
+      "estimatedCost": "Separate applied study with problem-specific validation",
+      "decision": "OPEN",
+      "cheap": false,
+      "reasonOpen": "This is mathematical certificate infrastructure, not evidence of improved outcomes on an ML or scientific dataset."
+    },
+    {
+      "limitation": "Uniform refinement is exponential in the box dimension 3n",
+      "closingQuestion": "Can compatibility-aware pointwise costs or coordinate-wise relaxations give polynomial-cost tightening?",
+      "triedOrSearched": "Not attempted; the benchmark quantifies the budget-32 outcome on 3n-dimensional boxes.",
+      "estimatedCost": "Uncalibrated; a new argument is needed",
+      "decision": "OPEN",
+      "cheap": false,
+      "reasonOpen": "Beyond the frozen target; recorded as the most valuable next project."
+    }
+  ],
+  "extensionScout": {
+    "by": "Authoring Codex assistant; internal reviewer challenged P3–P5",
+    "date": "2026-10-07",
+    "proposals": [
+      "Separate mass shift from tilt",
+      "Retain exact target dual witnesses",
+      "Compare a global uncertainty maximum against the pointwise bound",
+      "Test degenerate cells and unsafe API inputs",
+      "Actioned external review of 0.1.0: adverse family, tightness theorem, convergent subdivision, benchmark (Claude revision, 7 October 2026)"
+    ],
+    "actions": [
+      "Derived and proved P4–P5",
+      "Implemented exact primal-dual checks and wrong-optimum rejection",
+      "Proved the B/2 conservatism gap",
+      "Fixed empty-iterator validation and retained degeneracy regression tests",
+      "Proved P6 and P7 and implemented refine_bound/tightness_bound/baseline_bound",
+      "Ran the bounded benchmark",
+      "Dispatched a cross-vendor adversarial review of P6-P7 before freezing"
+    ]
+  },
+  "sourcesReadInFullMeaning": "Legacy schema key required by the publication gate checker; each entry records the exact sections read, as stated in readWhat, not a claim that the whole source was read."
+}

@@ -1,0 +1,32 @@
+name: structural-and-replay-checks
+on:
+  push:
+    branches: [main]
+  pull_request:
+jobs:
+  checks:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    strategy:
+      matrix:
+        python-version: ['3.12', '3.13']
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: ${{ matrix.python-version }}
+      - name: Manifest (files in Git match MANIFEST.sha256)
+        run: python tools/check_git_manifest.py
+      - name: Tests in normal and optimised modes
+        run: |
+          python test_transport.py
+          python -O test_transport.py
+      - name: Recorded example results are recomputed exactly
+        run: |
+          python transport_cli.py examples/tilt.json --check examples/tilt.result.json
+          python transport_cli.py examples/uncertainty.json --check examples/uncertainty.result.json
+          python transport_cli.py examples/refine.json --check examples/refine.result.json
+      - name: Benchmark exact fields are recomputed (timing not compared)
+        run: python benchmark.py --check
+      - name: Every Python source compiles
+        run: python -m compileall -q . > /dev/null

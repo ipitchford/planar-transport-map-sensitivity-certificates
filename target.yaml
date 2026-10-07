@@ -1,0 +1,35 @@
+target_id: planar-transport-sensitivity-certificates
+search_date: 2026-10-07
+intended_contribution_unit: computation and scoped certificate theorems (envelope, tightness, convergent refinement)
+claim:
+  exact_statement: |
+    For uniform source on any rational convex planar polygon of positive area,
+    certify L2 displacement of the gradients of two finite rational affine maxima;
+    separately check finite target-coupling primal/dual certificates and bound
+    displacement for every affine coefficient choice in a specified rational box.
+  exclusions:
+    - No claim to the general optimal one-third stability theorem.
+    - No discovery claim for power diagrams or overlay couplings.
+    - Prescribed target-mass solving and high-dimensional scalability are excluded.
+source:
+  originating_reference: OpenAI family 374, sharpness section, 2026-09-25
+  commit: adc7f1241b42e322a6451854ab7e4b4c146bf78a
+normalisation:
+  source: uniform probability on polygon, not unnormalised area
+  cost: squared Euclidean distance, no factor one half
+  symmetries: [common intercept shift, common target translation, relabelling]
+fingerprints:
+  source_specialisation: a=1/4 and b in {0,1/16,1/8}
+  source_reported_squared_target_distances: [0,1/1024,1/256]
+  source_reported_squared_map_distances: [0,33/1024,17/256]
+  status: replayed exactly by test_tilt_grid_exact (overlay geometry and separate vertex-enumeration geometry agree with the formulas; version 0.1.0 and 0.2.0)
+sequences: []
+generating_functions: []
+matrices: []
+fingerprint_nonapplicability: No natural enumerative sequence or generating function; polygon areas and coefficient symmetries are the object fingerprints.
+aliases:
+  analysis: [Brenier map, Laguerre cell stability]
+  probability: [coupling, pushforward, source reassignment]
+  combinatorics: [power-diagram overlay, polyhedral partition]
+  mathematical_physics: [mass transport]
+  statistics_optimisation_ml: [linearized optimal transport, robust clustering, winner margins]

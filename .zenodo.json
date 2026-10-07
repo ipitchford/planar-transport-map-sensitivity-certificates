@@ -1,0 +1,24 @@
+{
+  "title": "Exact sensitivity certificates for planar transport maps: coefficient uncertainty, a convergent box refinement and a sharp three-atom calibration",
+  "upload_type": "publication",
+  "publication_type": "preprint",
+  "creators": [{"name": "Anonymous"}],
+  "version": "0.2.0-candidate",
+  "license": "cc-zero",
+  "access_right": "open",
+  "publication_date": "2026-10-07",
+  "keywords": ["optimal transport", "Brenier map", "semi-discrete transport", "power diagram", "stability of transport maps", "coefficient uncertainty", "interval certificate", "branch and bound", "exact rational arithmetic", "computer-assisted mathematics"],
+  "related_identifiers": [
+    {"identifier": "https://github.com/ipitchford/planar-transport-map-sensitivity-certificates", "relation": "isSupplementTo", "scheme": "url"},
+    {"identifier": "https://evidencepress.org/releases/planar-transport-map-sensitivity-certificates/", "relation": "isDocumentedBy", "scheme": "url"},
+    {"identifier": "10.1093/imrn/rnaa355", "relation": "references", "scheme": "doi"},
+    {"identifier": "10.1007/978-3-031-20050-2_36", "relation": "references", "scheme": "doi"},
+    {"identifier": "10.1215/00127094-2022-0106", "relation": "references", "scheme": "doi"},
+    {"identifier": "10.1093/imrn/rnaf078", "relation": "references", "scheme": "doi"},
+    {"identifier": "10.5802/crmath.834", "relation": "references", "scheme": "doi"},
+    {"identifier": "10.1007/s10208-024-09669-4", "relation": "references", "scheme": "doi"},
+    {"identifier": "10.1007/s00778-012-0290-x", "relation": "references", "scheme": "doi"},
+    {"identifier": "10.1007/s10444-026-10289-5", "relation": "references", "scheme": "doi"}
+  ],
+  "description": "Unrefereed candidate. For a uniform source on a rational convex polygon and finite affine-max potentials, the package computes in exact rational arithmetic the L2 discrepancy between two optimal transport maps, certifies the target transport cost separately by an exact primal-dual witness, and bounds the map discrepancy uniformly over an independent affine-coefficient box by a possible-winner envelope that needs neither fixed cell combinatorics nor fixed target masses. The envelope relaxes the problem in two distinct ways; an admissible two-plane family shows that its relative conservatism is unbounded (envelope 4, sharp maximum epsilon^2/4). The note proves that the gap is nevertheless linear in the largest coefficient radius with an explicit rational constant, and derives a convergent box-subdivision refinement returning a certified interval around the sharp maximum whose lower end is attained by an explicit point of the box. A two-parameter extension of an existing three-atom construction gives closed formulas for map error, target distance and their difference, with a corner maximum on admissible rectangles. A bounded 65-case benchmark compares the envelope with the elementary slope-diameter bound, explicit realisations and the refinement. Version 0.2.0 actions an external review of the unpublished version 0.1.0 in full (response included). Provenance: version 0.1.0 by an OpenAI Codex assistant, version 0.2.0 by an Anthropic Claude agent with an OpenAI model as adversarial reviewer, under the direction of the publisher, Evidence Press; no human mathematical contribution is claimed. Producer-side replay and separately implemented checks only; no formal verification, independent reproduction by an unaffiliated party, specialist or journal peer review; novelty is established only within a bounded literature search."
+}

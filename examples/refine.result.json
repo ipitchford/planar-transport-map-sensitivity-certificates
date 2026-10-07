@@ -1,0 +1,56 @@
+{
+  "assurance": "Exact arithmetic implementation; not formal verification, independent peer review, or a general prescribed-mass solver.",
+  "coefficient_box": {
+    "arrangement_regions": 1,
+    "baseline_slope_diameter": "4",
+    "map_distance_squared_upper": "4"
+  },
+  "first_masses": [
+    "1"
+  ],
+  "input_sha256": "651a64e87148817a09e4f158d6ffd0abe5c83bec9d0c99c19bbf699dc5baf973",
+  "map_distance_squared": "0",
+  "overlap": [
+    [
+      "1",
+      "0"
+    ]
+  ],
+  "refined_box": {
+    "arrangement_regions": 416,
+    "attaining_coefficients": [
+      [
+        "1",
+        "0",
+        "0"
+      ],
+      [
+        "3891/4096",
+        "0",
+        "1/10"
+      ]
+    ],
+    "attaining_realization": [
+      [
+        "1",
+        "0",
+        "0"
+      ],
+      [
+        "3891/4096",
+        "0",
+        "1/10"
+      ]
+    ],
+    "boxes_evaluated": 151,
+    "converged": true,
+    "gap": "5489/551813120",
+    "lower": "41943/16777216",
+    "stop_reason": "tolerance",
+    "upper": "88641311/35316039680"
+  },
+  "second_masses": [
+    "1",
+    "0"
+  ]
+}

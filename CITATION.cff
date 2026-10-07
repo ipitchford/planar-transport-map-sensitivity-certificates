@@ -1,0 +1,14 @@
+cff-version: 1.2.0
+message: "Please cite this unrefereed research candidate and retain its scope qualifications."
+type: software
+title: "Exact sensitivity certificates for planar transport maps: coefficient uncertainty, a convergent box refinement and a sharp three-atom calibration"
+authors:
+  - name: "Anonymous"
+version: "0.2.0-candidate"
+date-released: "2026-10-07"
+doi: "10.5281/zenodo.23205731"
+repository-code: "https://github.com/ipitchford/planar-transport-map-sensitivity-certificates"
+license:
+  - CC0-1.0
+  - MIT
+abstract: "Exact rational map-error and target-cost certificates for planar affine-max transport maps; a uniform coefficient-box envelope with a proved linear-in-radius tightness bound and a convergent box-subdivision interval with feasible lower bounds; a sharp two-parameter three-atom calibration; a bounded benchmark. Unrefereed candidate; no external peer review, independent reproduction or formal verification."

@@ -1,0 +1,85 @@
+{
+  "schemaVersion": "1.0",
+  "title": "Exact sensitivity certificates for planar transport maps: coefficient uncertainty, a convergent box refinement and a sharp three-atom calibration",
+  "version": "0.2.0",
+  "date": "2026-10-07",
+  "status": "unrefereed-candidate",
+  "claims": [
+    {
+      "id": "P1",
+      "statement": "Finite affine maxima define the unique quadratic optimal map to their own pushforward laws, almost everywhere under a uniform polygon source.",
+      "contribution": "known argument reproduced with attribution",
+      "proof": "PROOFS.md#p1-affine-maxima-define-optimal-maps",
+      "evidenceClass": "written-proof",
+      "paperLocation": "Section 2, Proposition 1"
+    },
+    {
+      "id": "P2",
+      "statement": "Rational cell overlays compute exact squared map discrepancy; a separate exact primal-dual witness certifies target transport cost.",
+      "contribution": "known constructions implemented as exact certificate infrastructure",
+      "proof": "PROOFS.md#p2-exact-overlay-certificate",
+      "evidenceClass": "written-proof-and-internal-replay",
+      "paperLocation": "Section 2, Proposition 1 and equation (2)"
+    },
+    {
+      "id": "P3",
+      "statement": "The integrated possible-winner envelope bounds squared map error uniformly over every single global realization of the stated independent coefficient box.",
+      "contribution": "scoped certificate method: a transport-specific integration of established possible-winner (envelope) screening; historical priority not established",
+      "proof": "PROOFS.md#p3-a-uniform-coefficient-box-envelope",
+      "evidenceClass": "written-proof-and-internal-review",
+      "qualification": "Conservative for two distinct reasons (winner-slope incompatibility and pointwise parameter independence); no general relative-tightness guarantee (P6). Gap linear in the largest radius with an explicit constant (P7). Rational planar implementation, uniform source; not fixed prescribed masses.",
+      "paperLocation": "Section 3, Theorem 2"
+    },
+    {
+      "id": "P4",
+      "statement": "On the strict admissible cube family F=H(s,b)+(a+s)b^2 and W2^2=|s|+(a+s)b^2, giving the exact overlap-coupling excess.",
+      "contribution": "elementary two-parameter extension of the credited OpenAI three-atom construction",
+      "proof": "PROOFS.md#p4-two-parameter-three-atom-calibration",
+      "evidenceClass": "written-proof-and-internal-replay",
+      "paperLocation": "Section 4, Theorem 7"
+    },
+    {
+      "id": "P5",
+      "statement": "For a fixed a and an admissible closed parameter rectangle, the exact maximum of F is attained at a corner; the symmetric-tilt pointwise envelope exceeds the sharp maximum by B/2.",
+      "contribution": "sharp specialized calibration and uncertainty-gap identity; priority not established",
+      "proof": "PROOFS.md#p5-exact-worst-case-interval-certificate",
+      "evidenceClass": "written-proof-and-internal-review",
+      "paperLocation": "Section 4, Corollary 8 and following paragraph"
+    },
+    {
+      "id": "P6",
+      "statement": "Adverse family on K=[1,2]x[0,1]: F(u,v_b) is the stated piecewise function of b, sup F = epsilon^2/4 at the interior parameter b=1-epsilon/2 with F=0 at both box endpoints, while the envelope and the slope-diameter baseline equal 4 for every epsilon in [0,1]; the compatibility-respecting pointwise supremum integrates to epsilon^2/2.",
+      "contribution": "exact diagnostic separating the two relaxations of P3; the family was supplied by the external review of version 0.1.0 and is rederived here",
+      "proof": "PROOFS.md#p6-an-adverse-family-the-two-relaxations-are-separately-unbounded",
+      "paperLocation": "Section 3.1, Proposition 3",
+      "evidenceClass": "written-proof-and-internal-replay",
+      "qualification": "A limitation of informativeness, not a counterexample to P3."
+    },
+    {
+      "id": "P7",
+      "statement": "Tightness: 0 <= B - F(u,v_nominal) <= 2 r Lambda + 2 r^2 + 4 r R_K D_K n(n-1) Lambda/|K| with the stated rational constants; consequently any finite sub-box cover yields LB <= sup F <= UB with UB - LB <= gamma_box(r_*), and best-first bisection with feasible-realisation lower bounds converges with linear rate in the sub-box radius.",
+      "contribution": "new scoped theorem and implementation (refine_bound, tightness_bound); historical priority not established",
+      "proof": "PROOFS.md#p7-tightness-at-small-radius-and-a-convergent-refinement",
+      "paperLocation": "Sections 3.2-3.3, Theorems 4 and 6, Remark 5",
+      "evidenceClass": "written-proof-and-internal-replay",
+      "qualification": "Uniform refinement needs a number of sub-boxes exponential in the box dimension 3n; the returned interval is valid at every budget."
+    }
+  ],
+  "assurance": {
+    "formalVerification": false,
+    "externalPeerReview": false,
+    "independentExternalReproduction": false,
+    "internalFreshContextReview": "version 0.1.0 (P3-P5)",
+    "externalReviewSuppliedByPublisher": "version 0.1.0; major revisions; all items actioned (REVIEW_RESPONSE.md); authorship not recorded",
+    "crossVendorAdversarialReview": "version 0.2.0 new results (P6, P7, refine_bound); see STATUS.md",
+    "novelty": "bounded search, not priority clearance",
+    "generalOneThirdTheorem": "not a dependency; not verified"
+  },
+  "limitations": [
+    "Uniform source on rational convex planar polygon for the generic implementation",
+    "Own pushforward targets, not a prescribed-mass solver",
+    "Potentially expensive line arrangements; fail-closed region cap",
+    "No general sharp global-box maximum in closed form; the refinement is exponential in the box dimension",
+    "No downstream application or performance claim; the benchmark is a single-machine observation"
+  ]
+}

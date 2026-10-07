@@ -1,0 +1,33 @@
+{
+  "assurance": "Exact arithmetic implementation; not formal verification, independent peer review, or a general prescribed-mass solver.",
+  "first_masses": [
+    "1/3",
+    "1/3",
+    "1/3"
+  ],
+  "input_sha256": "09cd7689865676c9466a6e1f22b62795fd272ad85848a3c6e515c4186ef149d1",
+  "map_distance_squared": "13/192",
+  "optimal_target_cost_squared": "1/192",
+  "overlap": [
+    [
+      "61/192",
+      "1/64",
+      "0"
+    ],
+    [
+      "1/64",
+      "29/96",
+      "1/64"
+    ],
+    [
+      "0",
+      "1/64",
+      "61/192"
+    ]
+  ],
+  "second_masses": [
+    "1/3",
+    "1/3",
+    "1/3"
+  ]
+}
