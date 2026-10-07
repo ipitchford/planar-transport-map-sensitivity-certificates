@@ -92,8 +92,8 @@
         }
       ],
       "closestPriorWork": "Supplied by the external review of version 0.1.0; rederived here",
-      "verdict": "attributed-to-review",
-      "qualification": "A diagnostic example, not a priority claim."
+      "verdict": "known-cited",
+      "qualification": "The family was supplied by the external review of version 0.1.0 (not a published source) and is rederived here; a diagnostic example, not a priority claim."
     },
     {
       "claim": "P7 tightness constant and convergent box subdivision",

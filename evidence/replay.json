@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0",
-  "recordedAt": "2026-10-07T07:11:10.211853+00:00",
+  "recordedAt": "2026-10-07T07:16:10.862029+00:00",
   "python": "3.14.7 (main, Aug  5 2026, 10:29:49) [Clang 21.0.0 (clang-2100.1.1.101)]",
   "interpreter": "/opt/homebrew/bin/python3.14",
   "platform": "macOS-27.0.1-arm64-arm-64bit-Mach-O",
@@ -11,9 +11,9 @@
         "test_transport.py"
       ],
       "exitCode": 0,
-      "stdout": "{\"passed\": true, \"tests\": 14, \"seconds\": 1.7835, \"tilt_cases\": 45, \"generic_two_algorithm_cases\": 24, \"uncertainty_sample_cases\": 32, \"corner_grid_cases\": 169, \"loose_grid_cases\": 408, \"tightness_cases\": 108, \"caveat\": \"Finite tests plus written proofs; not formal verification or external review.\"}\n",
-      "stderr": "test_corner_maximum_grid (__main__.TransportTests.test_corner_maximum_grid) ... ok\ntest_degenerate_cells_and_coincident_uncertain_planes (__main__.TransportTests.test_degenerate_cells_and_coincident_uncertain_planes) ... ok\ntest_general_box_samples (__main__.TransportTests.test_general_box_samples) ... ok\ntest_generic_overlay_two_algorithms (__main__.TransportTests.test_generic_overlay_two_algorithms) ... ok\ntest_global_versus_pointwise_uncertainty (__main__.TransportTests.test_global_versus_pointwise_uncertainty) ... ok\ntest_loose_family_two_relaxations (__main__.TransportTests.test_loose_family_two_relaxations) ... ok\ntest_malformed_rationals_are_refused (__main__.TransportTests.test_malformed_rationals_are_refused) ... ok\ntest_merge_planes (__main__.TransportTests.test_merge_planes) ... ok\ntest_negative_controls (__main__.TransportTests.test_negative_controls) ... ok\ntest_refinement_is_certified_and_converges (__main__.TransportTests.test_refinement_is_certified_and_converges) ... ok\ntest_shift_and_relabel (__main__.TransportTests.test_shift_and_relabel) ... ok\ntest_tightness_theorem_on_random_boxes (__main__.TransportTests.test_tightness_theorem_on_random_boxes) ... ok\ntest_tilt_grid_exact (__main__.TransportTests.test_tilt_grid_exact) ... ok\ntest_zero_box_is_exact (__main__.TransportTests.test_zero_box_is_exact) ... ok\n\n----------------------------------------------------------------------\nRan 14 tests in 1.783s\n\nOK\n",
-      "seconds": 1.840364
+      "stdout": "{\"passed\": true, \"tests\": 14, \"seconds\": 1.7895, \"tilt_cases\": 45, \"generic_two_algorithm_cases\": 24, \"uncertainty_sample_cases\": 32, \"corner_grid_cases\": 169, \"loose_grid_cases\": 408, \"tightness_cases\": 108, \"caveat\": \"Finite tests plus written proofs; not formal verification or external review.\"}\n",
+      "stderr": "test_corner_maximum_grid (__main__.TransportTests.test_corner_maximum_grid) ... ok\ntest_degenerate_cells_and_coincident_uncertain_planes (__main__.TransportTests.test_degenerate_cells_and_coincident_uncertain_planes) ... ok\ntest_general_box_samples (__main__.TransportTests.test_general_box_samples) ... ok\ntest_generic_overlay_two_algorithms (__main__.TransportTests.test_generic_overlay_two_algorithms) ... ok\ntest_global_versus_pointwise_uncertainty (__main__.TransportTests.test_global_versus_pointwise_uncertainty) ... ok\ntest_loose_family_two_relaxations (__main__.TransportTests.test_loose_family_two_relaxations) ... ok\ntest_malformed_rationals_are_refused (__main__.TransportTests.test_malformed_rationals_are_refused) ... ok\ntest_merge_planes (__main__.TransportTests.test_merge_planes) ... ok\ntest_negative_controls (__main__.TransportTests.test_negative_controls) ... ok\ntest_refinement_is_certified_and_converges (__main__.TransportTests.test_refinement_is_certified_and_converges) ... ok\ntest_shift_and_relabel (__main__.TransportTests.test_shift_and_relabel) ... ok\ntest_tightness_theorem_on_random_boxes (__main__.TransportTests.test_tightness_theorem_on_random_boxes) ... ok\ntest_tilt_grid_exact (__main__.TransportTests.test_tilt_grid_exact) ... ok\ntest_zero_box_is_exact (__main__.TransportTests.test_zero_box_is_exact) ... ok\n\n----------------------------------------------------------------------\nRan 14 tests in 1.789s\n\nOK\n",
+      "seconds": 1.841007
     },
     {
       "argv": [
@@ -22,9 +22,9 @@
         "test_transport.py"
       ],
       "exitCode": 0,
-      "stdout": "{\"passed\": true, \"tests\": 14, \"seconds\": 1.8351, \"tilt_cases\": 45, \"generic_two_algorithm_cases\": 24, \"uncertainty_sample_cases\": 32, \"corner_grid_cases\": 169, \"loose_grid_cases\": 408, \"tightness_cases\": 108, \"caveat\": \"Finite tests plus written proofs; not formal verification or external review.\"}\n",
-      "stderr": "test_corner_maximum_grid (__main__.TransportTests.test_corner_maximum_grid) ... ok\ntest_degenerate_cells_and_coincident_uncertain_planes (__main__.TransportTests.test_degenerate_cells_and_coincident_uncertain_planes) ... ok\ntest_general_box_samples (__main__.TransportTests.test_general_box_samples) ... ok\ntest_generic_overlay_two_algorithms (__main__.TransportTests.test_generic_overlay_two_algorithms) ... ok\ntest_global_versus_pointwise_uncertainty (__main__.TransportTests.test_global_versus_pointwise_uncertainty) ... ok\ntest_loose_family_two_relaxations (__main__.TransportTests.test_loose_family_two_relaxations) ... ok\ntest_malformed_rationals_are_refused (__main__.TransportTests.test_malformed_rationals_are_refused) ... ok\ntest_merge_planes (__main__.TransportTests.test_merge_planes) ... ok\ntest_negative_controls (__main__.TransportTests.test_negative_controls) ... ok\ntest_refinement_is_certified_and_converges (__main__.TransportTests.test_refinement_is_certified_and_converges) ... ok\ntest_shift_and_relabel (__main__.TransportTests.test_shift_and_relabel) ... ok\ntest_tightness_theorem_on_random_boxes (__main__.TransportTests.test_tightness_theorem_on_random_boxes) ... ok\ntest_tilt_grid_exact (__main__.TransportTests.test_tilt_grid_exact) ... ok\ntest_zero_box_is_exact (__main__.TransportTests.test_zero_box_is_exact) ... ok\n\n----------------------------------------------------------------------\nRan 14 tests in 1.835s\n\nOK\n",
-      "seconds": 1.894483
+      "stdout": "{\"passed\": true, \"tests\": 14, \"seconds\": 1.8174, \"tilt_cases\": 45, \"generic_two_algorithm_cases\": 24, \"uncertainty_sample_cases\": 32, \"corner_grid_cases\": 169, \"loose_grid_cases\": 408, \"tightness_cases\": 108, \"caveat\": \"Finite tests plus written proofs; not formal verification or external review.\"}\n",
+      "stderr": "test_corner_maximum_grid (__main__.TransportTests.test_corner_maximum_grid) ... ok\ntest_degenerate_cells_and_coincident_uncertain_planes (__main__.TransportTests.test_degenerate_cells_and_coincident_uncertain_planes) ... ok\ntest_general_box_samples (__main__.TransportTests.test_general_box_samples) ... ok\ntest_generic_overlay_two_algorithms (__main__.TransportTests.test_generic_overlay_two_algorithms) ... ok\ntest_global_versus_pointwise_uncertainty (__main__.TransportTests.test_global_versus_pointwise_uncertainty) ... ok\ntest_loose_family_two_relaxations (__main__.TransportTests.test_loose_family_two_relaxations) ... ok\ntest_malformed_rationals_are_refused (__main__.TransportTests.test_malformed_rationals_are_refused) ... ok\ntest_merge_planes (__main__.TransportTests.test_merge_planes) ... ok\ntest_negative_controls (__main__.TransportTests.test_negative_controls) ... ok\ntest_refinement_is_certified_and_converges (__main__.TransportTests.test_refinement_is_certified_and_converges) ... ok\ntest_shift_and_relabel (__main__.TransportTests.test_shift_and_relabel) ... ok\ntest_tightness_theorem_on_random_boxes (__main__.TransportTests.test_tightness_theorem_on_random_boxes) ... ok\ntest_tilt_grid_exact (__main__.TransportTests.test_tilt_grid_exact) ... ok\ntest_zero_box_is_exact (__main__.TransportTests.test_zero_box_is_exact) ... ok\n\n----------------------------------------------------------------------\nRan 14 tests in 1.817s\n\nOK\n",
+      "seconds": 1.873955
     },
     {
       "argv": [
@@ -37,7 +37,7 @@
       "exitCode": 0,
       "stdout": "{\n  \"assurance\": \"Exact arithmetic implementation; not formal verification, independent peer review, or a general prescribed-mass solver.\",\n  \"first_masses\": [\n    \"1/3\",\n    \"1/3\",\n    \"1/3\"\n  ],\n  \"input_sha256\": \"09cd7689865676c9466a6e1f22b62795fd272ad85848a3c6e515c4186ef149d1\",\n  \"map_distance_squared\": \"13/192\",\n  \"optimal_target_cost_squared\": \"1/192\",\n  \"overlap\": [\n    [\n      \"61/192\",\n      \"1/64\",\n      \"0\"\n    ],\n    [\n      \"1/64\",\n      \"29/96\",\n      \"1/64\"\n    ],\n    [\n      \"0\",\n      \"1/64\",\n      \"61/192\"\n    ]\n  ],\n  \"second_masses\": [\n    \"1/3\",\n    \"1/3\",\n    \"1/3\"\n  ]\n}\n",
       "stderr": "",
-      "seconds": 0.059234
+      "seconds": 0.048845
     },
     {
       "argv": [
@@ -50,7 +50,7 @@
       "exitCode": 0,
       "stdout": "{\n  \"assurance\": \"Exact arithmetic implementation; not formal verification, independent peer review, or a general prescribed-mass solver.\",\n  \"coefficient_box\": {\n    \"arrangement_regions\": 16,\n    \"baseline_slope_diameter\": \"3\",\n    \"map_distance_squared_upper\": \"25/192\"\n  },\n  \"first_masses\": [\n    \"1/3\",\n    \"1/3\",\n    \"1/3\"\n  ],\n  \"input_sha256\": \"d83285795ec06cf8741dc4295d7681593816e8a70d1c4f7aa7c2f0f71b2b4ae3\",\n  \"map_distance_squared\": \"0\",\n  \"overlap\": [\n    [\n      \"1/3\",\n      \"0\",\n      \"0\"\n    ],\n    [\n      \"0\",\n      \"1/3\",\n      \"0\"\n    ],\n    [\n      \"0\",\n      \"0\",\n      \"1/3\"\n    ]\n  ],\n  \"second_masses\": [\n    \"1/3\",\n    \"1/3\",\n    \"1/3\"\n  ]\n}\n",
       "stderr": "",
-      "seconds": 0.061761
+      "seconds": 0.05007
     },
     {
       "argv": [
@@ -63,7 +63,7 @@
       "exitCode": 0,
       "stdout": "{\n  \"assurance\": \"Exact arithmetic implementation; not formal verification, independent peer review, or a general prescribed-mass solver.\",\n  \"coefficient_box\": {\n    \"arrangement_regions\": 1,\n    \"baseline_slope_diameter\": \"4\",\n    \"map_distance_squared_upper\": \"4\"\n  },\n  \"first_masses\": [\n    \"1\"\n  ],\n  \"input_sha256\": \"651a64e87148817a09e4f158d6ffd0abe5c83bec9d0c99c19bbf699dc5baf973\",\n  \"map_distance_squared\": \"0\",\n  \"overlap\": [\n    [\n      \"1\",\n      \"0\"\n    ]\n  ],\n  \"refined_box\": {\n    \"arrangement_regions\": 416,\n    \"attaining_coefficients\": [\n      [\n        \"1\",\n        \"0\",\n        \"0\"\n      ],\n      [\n        \"3891/4096\",\n        \"0\",\n        \"1/10\"\n      ]\n    ],\n    \"attaining_realization\": [\n      [\n        \"1\",\n        \"0\",\n        \"0\"\n      ],\n      [\n        \"3891/4096\",\n        \"0\",\n        \"1/10\"\n      ]\n    ],\n    \"boxes_evaluated\": 151,\n    \"converged\": true,\n    \"gap\": \"5489/551813120\",\n    \"lower\": \"41943/16777216\",\n    \"stop_reason\": \"tolerance\",\n    \"upper\": \"88641311/35316039680\"\n  },\n  \"second_masses\": [\n    \"1\",\n    \"0\"\n  ]\n}\n",
       "stderr": "",
-      "seconds": 0.222991
+      "seconds": 0.194997
     },
     {
       "argv": [
@@ -74,7 +74,7 @@
       "exitCode": 0,
       "stdout": "{\"status\": \"passed\", \"cases\": 65, \"note\": \"exact fields match; timing and memory are not compared\"}\n",
       "stderr": "",
-      "seconds": 40.871196
+      "seconds": 40.766885
     }
   ],
   "inputs": {
@@ -87,7 +87,7 @@
     "PROOFS.md": "6387b7b0a387e9972c9b40d0cdbc8f8c1c67690e17b19b1ad66cb82c0c049c7d",
     "PRIOR_ART.md": "b3b8d4b11b119285f046621512a7a575b1fe4b7ae0dbeaed49d0ce6bd08fdb5e",
     "RESEARCH_CONTRACT.md": "73d29df78fb14b0115b102cfa07da50d9bfe7644bc09db7276dab7550b295a76",
-    "RESEARCH_GATES.json": "64dd421a3426e6da97dbc4acf986083be3acdab853d3c4fa1ffa70a8d3ccf9ea",
+    "RESEARCH_GATES.json": "24b86841a67d32ef8add5988101879cbfb5c9a293f0ea19a8688b3cc803640e6",
     "INTERNAL_REVIEW.md": "b29dfc482f70e5770f51201cea5f7d75748af3216890a724f3f1179466e76567",
     "REVIEW_DISPOSITION.md": "40b12db09b356e3cfc054f49d3bc981f7eea3d223b7f2654e5fa39f9a7eada4f",
     "REVIEW_RESPONSE.md": "9938010bf96ae309338ed390da9eb16864a7ae958a77374e114e5caf5069f391",
